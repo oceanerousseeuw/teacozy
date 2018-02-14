@@ -72,3 +72,34 @@ nav span {
 .mission h2,h4 {
   margin: auto;
 }
+
+/* tea of the month section */
+
+.tea-month .box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
+}
+.tea {
+  margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
