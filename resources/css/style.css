@@ -38,16 +38,30 @@ nav span {
   padding-left: 10px;
 }
 
+/* main content */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: auto;
+  height: auto;
+
+}
 /* mission section */
 
 .mission {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 1200px;
   height: 700px;
+  width: 1200px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
 }
 .mission span {
-  /* background-color: black; */
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
 }
