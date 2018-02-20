@@ -1,136 +1,124 @@
-/* universal style */
+/*=========== universal style =============*/
 body {
-  font-family: helvetica;
-  font-size: 22px;
-  color: seashell;
-  background-color: black;
-  opacity: 0.9;
-  text-align: center;
+    font-family: helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
 }
+
 a {
-  color: seashell;
+    color: seashell;
 }
 
-h4,
-h2 {
-  /* padding: 10px; */
+
+
+/*=========== header =============*/
+header, .logo{
+    display: flex;
 }
 
-/* header */
 header {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid seashell;
-  height: 69px;
-  width: 100%
-  position: fixed;
-  align-items: center;
-  z-index: 1;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    z-index: 1;
 }
 
-.logo {
-  display: flex;
-}
 nav span {
-  display: inline-block;
-  text-decoration: underline;
-  padding: 20px;
+    display: inline-block;
+    text-decoration: underline;
+    padding: 20px;
 }
 
 .logo img {
-  height: 50px;
-  padding-left: 10px;
+    height: 50px;
+    padding-left: 10px;
 }
 
-/* main content */
 
+/*============= main content =============*/
 .container {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;
-  /* width: auto;
-  height: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
-/* mission section */
 
+
+/*============= mission section =============*/
 .mission {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 700px;
-  width: 1200px;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-  margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    width: 1200px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    margin-bottom: 40px;
 }
+
 .mission span {
-  background-color: black;
-  padding: 10px;
-  /* display: flex;
-  justify-content: center; */
-  /* align-items: center; */
-}
-.mission h2,h4 {
-  margin: auto;
+    background-color: black;
+    padding: 10px;
 }
 
-/* tea of the month section */
+.mission h2, h4 {
+    margin: auto;
+}
 
+
+/*============= tea of the month section =============*/
 .tea-month .box {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  max-width: 1000px;
-  margin: 10px
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 10px
 }
 
 .tea img {
-  width: 300px;
-  height: 200px;
+    width: 300px;
+    height: 200px;
 }
+
 .tea {
-  margin: 10px;
+    margin: 10px;
 }
 
 
-/* location section  */
+/*============= location section  =============*/
+.location, .locations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .location {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-  /* background-size:auto; */
-  height: 500px;
-  width:1200px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 40px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    flex-direction: row;
+    margin-top: 40px;
 }
-
 
 .locations {
-  background-color: black;
-  opacity: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 300px;
-  margin: 15px 20px;
-  /* it said 40 in the redline, but I think this looks closer */
+    background-color: black;
+    opacity: 1;
+    flex-direction: column;
+    width: 300px;
+    margin: 15px 20px;
+    /* it said 40 in the redline, but I think this looks closer */
 
 }
 
 
-/* footer */
-
+/*============= footer =============*/
 #copyright {
-  text-align: left;
-  margin-left: 20px;
+    text-align: left;
+    margin-left: 20px;
 }
 
-
-
-
-/*  */
